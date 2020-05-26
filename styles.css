@@ -11,7 +11,7 @@ body, html, * {
   flex-wrap: nowrap;
 }
 
-.newsweek-logo {
+.navbar-brand {
   width: 7.5em;
   filter: invert(1) 
 }
@@ -30,17 +30,13 @@ body, html, * {
   color: lightgray;
 }
 
+.title-div {
+  margin: 1em 0 0 1em;
+}
+
 .menu-icon {
   width: 3em;
   filter: brightness(1.7) opacity(0.7);
-}
-
-main {
-  padding: 0;
-}
-
-article {
-  padding: 0.5em 1em 0.2em;
 }
 
 .img img{
@@ -63,7 +59,12 @@ h4 {
   color: #999;
   font-size: 1em;
   font-weight: 900;
-  margin: 1em 0 0 1em;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 800;
+  color: black;
 }
 
 p {
@@ -76,7 +77,6 @@ p {
   background-color: #ECECF0;
   color: #F72210;
   height: 2.0625em;
-  text-align: center;
   line-height: 2.0625em;
   position: absolute;
   left: 0;
@@ -89,5 +89,69 @@ p {
   height: 1.125em;
   background-color: #f4f5f7;
   border-top: 1px solid #e2e2e2;
+}
+
+.card {
+  padding: 1em;
+  border: none;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.redbar {
+  background-color: #F92859;
+  height: 0.2em;
   width: 100%;
+  margin: 0 auto;
+}
+
+.debate {
+  position: relative;
+}
+
+.debaters1 {
+  border-top: 0.2em solid #F92859;
+}
+
+.debaters2 {
+  border-bottom: 0.2em solid #1C87FB;
+}
+
+.debate-info span {
+  font-size: 0.9em;
+  color: black;
+}
+
+.round-size {
+  width: 3.9375rem;
+  margin: 0.5em 1em 1em 0;
+}
+
+.round-size-right {
+  width: 3.9375rem;
+  margin: 0.5em 0 1em 0;
+}
+
+.b-circle {
+  width: 2em;
+  height: 2em;
+  background-color: black;
+  color: #999;
+  font-weight: 700;
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translate(-75%);
+  z-index: 1;
+  
+}
+
+.double-border {
+  border-top: 0.1em solid lightgray;
+  border-bottom: 0.1em solid lightgray;
+  height: 0.2em;
+  width: 93%;
+  position: absolute;
+  top: 55%;
 }
