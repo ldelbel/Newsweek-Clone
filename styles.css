@@ -85,6 +85,28 @@ p {
   font-weight: 800;
 }
 
+.pad {
+  padding: 1em !important;
+}
+
+.square-img {
+  width: 5.9375em;
+  height: 5.9375em;
+  margin-right: 1em;
+}
+
+.more-stories h5 {
+  font-size: 1.0625em;
+}
+
+.sponsored .card-title {
+  font-size: 1.25em;
+}
+
+.cat2 {
+  color: #1c87fb;
+}
+
 .gap {
   height: 1.125em;
   background-color: #f4f5f7;
@@ -93,7 +115,16 @@ p {
 
 .card {
   padding: 1em;
+}
+
+.card2 {
+  padding: 0;
+  margin: 1em;
+}
+
+.no-border {
   border: none;
+  padding: 1em;
 }
 
 .card-body {
