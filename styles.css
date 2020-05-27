@@ -129,6 +129,24 @@ p {
   margin: 0.5em 1em 1em 0;
 }
 
+.round-opinion {
+  width: 3.9375em;
+  height: 3.9375em;
+  margin-right: 1em;
+}
+
+.opinion h4:not(:first-child) {
+  color: #666;
+}
+
+.opinion-sec {
+  padding: 0.5em 0;
+}
+
+.opinion-sec:not(:first-of-type) {
+  border-top: 0.1em solid #dbdbdb;
+}
+
 .round-size-right {
   width: 3.9375rem;
   margin: 0.5em 0 1em 0;
@@ -144,7 +162,6 @@ p {
   margin-left: 50%;
   transform: translate(-75%);
   z-index: 1;
-  
 }
 
 .double-border {
