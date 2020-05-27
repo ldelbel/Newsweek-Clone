@@ -108,6 +108,15 @@ p {
   color: #1c87fb;
 }
 
+.cat3 {
+  background-color: #C2D4D7;
+  color: #333;
+  height: auto;
+  line-height: 1.125em;
+  padding: 0.2em 0.5em;
+  font-size: 0.8em;
+}
+
 .gap {
   height: 1.125em;
   background-color: #f4f5f7;
@@ -208,4 +217,50 @@ p {
 .more-div {
   padding: 1em 0 0;
   border-top: 0.1em solid rgb(221, 221, 221);
+}
+
+.sub-img {
+  width: 24.375em;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.sub-img img {
+  width: 100%;
+}
+
+.subject {
+  margin-bottom: 1.5em;
+}
+
+.subscribe {
+  border: 0.1em solid rgb(218, 218, 218);
+  background-color: #F4F5F6;
+  width: 18.75em;
+  margin: 2em auto 2em;
+  padding: 1em 0.5em;
+  
+}
+
+form img {
+  width: 1.75em;
+}
+
+form h3 {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1.1875em;
+  margin: 0 0 0 0.5em;
+  line-height: 1em;
+}
+
+form button {
+  width: 90%;
+  background-color: #F61602 !important;
+  border: none !important;
+}
+
+.form-group {
+  width: 90%;
+  margin-bottom: 0.5em;
 }
