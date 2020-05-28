@@ -5,6 +5,38 @@ body, html, * {
   box-sizing: border-box;
 }
 
+.text-black {
+  color: black; 
+}
+
+.text-red {
+  color: #F72210;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.margin-lat {
+  margin: 0 1em;
+}
+
+.margin-top { 
+  margin-top: 1em;
+}
+
+.margin-vert {
+  margin: 2em 0 1em;
+}
+
+.margin-tot {
+  margin: 1em 1em 0.3em 1em;
+}
+
 .navbar {
   background-color: #F72210;
   height: 3.125em;
@@ -96,6 +128,10 @@ p {
   float: left;
 }
 
+.half-sq {
+  height: 3.9625em;
+}
+
 .more-stories h5 {
   font-size: 1.0625em;
 }
@@ -117,6 +153,22 @@ p {
   font-size: 0.8em;
 }
 
+.cat4 {
+  background-color: #F72210;
+  color: white;
+  padding: 0 0.4em;
+  font-weight: 800;
+  line-height: 1.625em;
+}
+
+.cat5 {
+  background-color: transparent;
+  color: #F72210;
+  padding: 0 0.4em;
+  font-weight: 800;
+  line-height: 1.625em;
+}
+
 .gap {
   height: 1.125em;
   background-color: #f4f5f7;
@@ -133,8 +185,15 @@ p {
 }
 
 .no-border {
-  border: none;
+  border: none !important;
   padding: 1em;
+}
+
+
+
+.border-bottom {
+  border: none;
+  border-bottom: 0.1em solid #dbdbdb;
 }
 
 .card-body {
@@ -219,12 +278,18 @@ p {
   border-top: 0.1em solid rgb(221, 221, 221);
 }
 
+.mag-img,
 .sub-img {
   width: 24.375em;
   position: relative;
+
+}
+
+.sub-img {
   margin-bottom: 1em;
 }
 
+.mag-img img,
 .sub-img img {
   width: 100%;
 }
@@ -246,7 +311,7 @@ form img {
   width: 1.75em;
 }
 
-form h3 {
+.darkh3 {
   text-transform: uppercase;
   color: #333;
   font-size: 1.1875em;
@@ -264,3 +329,14 @@ form button {
   width: 90%;
   margin-bottom: 0.5em;
 }
+
+.btn-light {
+  font-weight: 800;
+} 
+
+.magazine-card-category {
+  height: 1.625em;
+  position: relative;
+  margin-bottom: 1em;
+}
+
