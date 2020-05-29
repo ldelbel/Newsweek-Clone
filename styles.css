@@ -404,3 +404,41 @@ form button {
   text-align: center;
   font-size: 0.9em;
 }
+
+.footer img {
+  width: 14.75em;
+  filter: invert(18%) sepia(99%) saturate(3196%) hue-rotate(355deg) brightness(97%) contrast(100%);
+}
+
+.footer a,
+.footer p {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-icons a {
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+
+.footer-icons a:hover {
+  color:#1DA1F2;
+}
+
+.footer p {
+  margin: 1em 0;
+}
+
+.links a {
+  margin: 0.2em 1.2em 0.2em 0;
+  font-size: 0.9em;
+}
+
+.lang {
+  padding-left: 1em;
+}
