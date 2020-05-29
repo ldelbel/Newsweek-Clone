@@ -319,10 +319,20 @@ form img {
   line-height: 1em;
 }
 
+.subs-button,
 form button {
-  width: 90%;
   background-color: #F61602 !important;
   border: none !important;
+  font-weight: 900;
+}
+
+form button {
+  width: 90%;
+}
+
+.subs-button {
+  width: 7em;
+  z-index: 2;
 }
 
 .form-group {
@@ -340,3 +350,57 @@ form button {
   margin-bottom: 1em;
 }
 
+.subs-box {
+  background-color: #F4F5F6;
+  height: 24.375em;
+  padding-top: 12em;
+  position: relative;
+}
+
+.mini {
+  width: 10.625em;
+  height: 14.1875em;
+}
+
+.subs-box h3 {
+  font-size: 1.25em;
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 2em;
+}
+
+.subs-box p {
+  font-size: 0.9em;
+  text-align: center;
+  z-index: 2;
+}
+
+.subs-img {
+  width: 15em;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%);
+}
+
+.subs-img img:first-child {
+  left: 35%;
+  top: 5%;
+  z-index: 1;
+  position: absolute;
+}
+
+.subs-img img:nth-child(2) {
+  left: 16%;
+  top: 7%;
+}
+
+.newsletter {
+  border: 0.1em solid #dbdbdb;
+  padding: 1em;
+}
+
+.newsletter p {
+  text-align: center;
+  font-size: 0.9em;
+}
