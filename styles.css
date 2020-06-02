@@ -1,4 +1,6 @@
-body, html, * {
+body,
+html,
+* {
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   padding: 0;
@@ -10,11 +12,11 @@ main {
 }
 
 .text-black {
-  color: black; 
+  color: black;
 }
 
 .text-red {
-  color: #F72210;
+  color: #f72210;
 }
 
 .no-padding {
@@ -29,7 +31,7 @@ main {
   margin: 0 1em;
 }
 
-.margin-top { 
+.margin-top {
   margin-top: 1em;
 }
 
@@ -42,24 +44,39 @@ main {
 }
 
 .navbar {
-  background-color: #F72210;
+  background-color: #f72210;
   height: 3.125em;
   flex-wrap: nowrap;
 }
 
 .navbar-brand {
   width: 7.5em;
-  filter: invert(1) 
+  filter: invert(1);
 }
 
 .btn-warning {
   font-size: 0.8em;
   font-weight: 900;
   color: black;
-  background-color: yellow;
+  background-color: #ffe400;
   width: 6.8em;
   padding: 0.05em 0.1em;
   margin: 0 1em;
+}
+
+.btn-warning2 {
+  font-size: 1.1em;
+  font-weight: 900;
+  color: black;
+  background-color: #ffe400;
+  padding: 0.05em 0.5em;
+  margin: 0 1em;
+}
+
+.login {
+  color: white;
+  display: inline;
+  margin-bottom: -0.1em;
 }
 
 .fas {
@@ -75,7 +92,7 @@ main {
   filter: brightness(1.7) opacity(0.7);
 }
 
-.img img{
+.img img {
   width: 100%;
   position: relative;
 }
@@ -110,8 +127,8 @@ p {
 }
 
 .cat {
-  background-color: #ECECF0;
-  color: #F72210;
+  background-color: #ececf0;
+  color: #f72210;
   height: 2.0625em;
   line-height: 2.0625em;
   position: absolute;
@@ -155,7 +172,7 @@ p {
 }
 
 .cat3 {
-  background-color: #C2D4D7;
+  background-color: #c2d4d7;
   color: #333;
   height: auto;
   line-height: 1.125em;
@@ -164,7 +181,7 @@ p {
 }
 
 .cat4 {
-  background-color: #F72210;
+  background-color: #f72210;
   color: white;
   padding: 0 0.4em;
   font-weight: 800;
@@ -173,7 +190,7 @@ p {
 
 .cat5 {
   background-color: transparent;
-  color: #F72210;
+  color: #f72210;
   padding: 0 0.4em;
   font-weight: 800;
   line-height: 1.625em;
@@ -213,7 +230,7 @@ p {
 }
 
 .redbar {
-  background-color: #F92859;
+  background-color: #f92859;
   height: 0.2em;
   width: 100%;
   margin: 0 auto;
@@ -224,11 +241,11 @@ p {
 }
 
 .debaters1 {
-  border-top: 0.2em solid #F92859;
+  border-top: 0.2em solid #f92859;
 }
 
 .debaters2 {
-  border-bottom: 0.2em solid #1C87FB;
+  border-bottom: 0.2em solid #1c87fb;
 }
 
 .debate-info span {
@@ -294,7 +311,6 @@ p {
 .sub-img {
   width: 24.375em;
   position: relative;
-
 }
 
 .sub-img {
@@ -315,11 +331,10 @@ p {
 
 .subscribe {
   border: 0.1em solid rgb(218, 218, 218);
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
   width: 18.75em;
   margin: 2em auto 2em;
   padding: 1em 0.5em;
-  
 }
 
 form img {
@@ -336,7 +351,7 @@ form img {
 
 .subs-button,
 form button {
-  background-color: #F61602 !important;
+  background-color: #f61602 !important;
   border: none !important;
   font-weight: 900;
 }
@@ -357,7 +372,7 @@ form button {
 
 .btn-light {
   font-weight: 800;
-} 
+}
 
 .magazine-card-category {
   height: 1.625em;
@@ -366,7 +381,7 @@ form button {
 }
 
 .subs-box {
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
   height: 24.375em;
   padding-top: 12em;
   position: relative;
@@ -442,7 +457,7 @@ form button {
 }
 
 .footer-icons a:hover {
-  color:#1DA1F2;
+  color: #1da1f2;
 }
 
 .footer p {
@@ -462,26 +477,30 @@ form button {
   z-index: 2;
 }
 
-
 @media only screen and (min-width: 768px) {
- .col1,
- .col2,
- .col3 {
-  padding: 0;
- }
+  
+  .fa-bars {
+    transform: scale(1.8);
+  }
+  
+  .col1,
+  .col2,
+  .col3 {
+    padding: 0;
+  }
 
- .col3 {
-   width: 100%;
- }
+  .col3 {
+    width: 100%;
+  }
 
   .heroes-grid,
   .culture-grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1em;
-   }
+  }
 
-   main {
+  main {
     padding: 0 1em;
   }
 
@@ -491,7 +510,7 @@ form button {
 
   .magazine-grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     gap: 1em;
   }
