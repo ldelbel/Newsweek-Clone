@@ -478,11 +478,10 @@ form button {
 }
 
 @media only screen and (min-width: 768px) {
-  
   .fa-bars {
     transform: scale(1.8);
   }
-  
+ 
   .col1,
   .col2,
   .col3 {
@@ -547,5 +546,30 @@ form button {
   .subs-box h3,
   .subs-box p {
     text-align: start;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    padding: 1em 0;
+  }
+
+  main {
+    margin: 0 1.5em;
+  }
+
+  .col2 {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .spons2,
+  .subscribe {
+    width: 100%;
+  }
+
+  .editor-grid {
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
   }
 }
