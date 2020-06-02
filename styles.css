@@ -5,6 +5,10 @@ body, html, * {
   box-sizing: border-box;
 }
 
+main {
+  overflow: hidden;
+}
+
 .text-black {
   color: black; 
 }
@@ -128,6 +132,12 @@ p {
   float: left;
 }
 
+.more-div::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .half-sq {
   height: 3.9625em;
 }
@@ -173,23 +183,25 @@ p {
   height: 1.125em;
   background-color: #f4f5f7;
   border-top: 1px solid #e2e2e2;
+  width: 100vw;
+  margin-left: -1em;
 }
 
 .card {
   padding: 1em;
+  border: none;
 }
 
 .card2 {
   padding: 0;
   margin: 1em;
+  border: 0.1em solid #dbdbdb;
 }
 
 .no-border {
   border: none !important;
   padding: 1em;
 }
-
-
 
 .border-bottom {
   border: none;
@@ -292,7 +304,8 @@ p {
 .mag-img,
 .sub-img,
 .mag-img img,
-.sub-img img {
+.sub-img img,
+#inputPassword2 {
   width: 100%;
 }
 
@@ -443,4 +456,77 @@ form button {
 
 .lang {
   padding-left: 1em;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+
+@media only screen and (min-width: 768px) {
+ .col1,
+ .col2,
+ .col3 {
+  padding: 0;
+ }
+
+ .col3 {
+   width: 100%;
+ }
+
+  .heroes-grid,
+  .culture-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+   }
+
+   main {
+    padding: 0 1em;
+  }
+
+  .spons2 {
+    width: 55%;
+  }
+
+  .magazine-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .editor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .last-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-right: 2em;
+  }
+
+  .more-div {
+    margin-top: 0;
+  }
+
+  .z2 {
+    width: 55%;
+    margin-left: 45%;
+    margin-top: -10%;
+    align-items: flex-start !important;
+  }
+
+  .subs-img {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+  }
+
+  .subs-box h3,
+  .subs-box p {
+    text-align: start;
+  }
 }
