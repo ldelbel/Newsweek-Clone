@@ -61,8 +61,9 @@ a:hover {
 
 .link {
   font-size: 1.1875em !important;
-  padding: 0.2em 0.3em;
+  padding: 0.1em 0.5vw;
   border-left: 0.1em solid #d3d3d3;
+  flex: 1;
 }
 
 .li {
@@ -79,6 +80,8 @@ ul {
   padding-right: 6vw;
   border-bottom: 0.13em solid #f0f0f0;
   list-style-type: none;
+  z-index: 2;
+  height: 100%;
 }
 
 .search-input {
@@ -655,7 +658,7 @@ form button {
     right: 0;
     content: "";
     display: block;
-    width: 7em;
+    width: 5em;
     background-color: #f72210;
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
