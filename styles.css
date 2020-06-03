@@ -311,12 +311,6 @@ p {
   border-top: 0.1em solid rgb(221, 221, 221);
 }
 
-.mag-img,
-.sub-img {
-  width: 24.375em;
-  position: relative;
-}
-
 .sub-img {
   margin-bottom: 1em;
 }
@@ -327,6 +321,7 @@ p {
 .sub-img img,
 #inputPassword2 {
   width: 100%;
+  position: relative;
 }
 
 .subject {
@@ -514,6 +509,18 @@ form button {
 
   .spons2 {
     width: 55%;
+  }
+  
+  .sub-img2 {
+    height: 21.3vw !important;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .sub-img2 img {
+    position: absolute;
+    transform: scale(1.7);
+    bottom: 0;
   }
 
   .magazine-grid {
