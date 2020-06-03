@@ -58,10 +58,36 @@ a:hover {
   margin: 1em 1em 0.3em 1em;
 }
 
+h5 {
+  font-size: 1em;
+  font-weight: 800;
+  color: black;
+}
+
+.more-stories h5 {
+  font-size: 1.0625em;
+}
+
 .debate h5:hover,
 .opinion h5:hover {
   color: #f92859;
   cursor: pointer;
+}
+
+h4 {
+  color: #999;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.magazine-grid h4 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 800;
+  color: black;
 }
 
 h3:hover,
@@ -71,10 +97,6 @@ h3:hover,
   text-decoration: underline;
   text-decoration-color: #f61602;
   cursor: pointer;
-}
-
-.magazine-grid h4 {
-  font-size: 1.2em;
 }
 
 .link {
@@ -191,6 +213,10 @@ ul {
   filter: brightness(1.7) opacity(0.7);
 }
 
+form img {
+  width: 1.75em;
+}
+
 .img img {
   width: 100%;
   position: relative;
@@ -199,24 +225,6 @@ ul {
 .img {
   position: relative;
   margin-bottom: 0.5em;
-}
-
-h3 {
-  font-size: 1.4em;
-  font-weight: 800;
-  color: black;
-}
-
-h4 {
-  color: #999;
-  font-size: 1em;
-  font-weight: 900;
-}
-
-h5 {
-  font-size: 1em;
-  font-weight: 800;
-  color: black;
 }
 
 p {
@@ -256,10 +264,6 @@ p {
 
 .half-sq {
   height: 3.9625em;
-}
-
-.more-stories h5 {
-  font-size: 1.0625em;
 }
 
 .sponsored .card-title {
@@ -418,7 +422,8 @@ p {
 .sub-img,
 .mag-img img,
 .sub-img img,
-#inputPassword2 {
+#inputPassword2,
+#inputPassword3 {
   width: 100%;
   position: relative;
 }
@@ -433,10 +438,6 @@ p {
   width: 18.75em;
   margin: 2em auto 2em;
   padding: 1em 0.5em;
-}
-
-form img {
-  width: 1.75em;
 }
 
 .darkh3 {
@@ -511,6 +512,11 @@ form button {
   transform: translate(-50%);
 }
 
+.footer img {
+  width: 14.75em;
+  filter: invert(18%) sepia(99%) saturate(3196%) hue-rotate(355deg) brightness(97%) contrast(100%);
+}
+
 .subs-img img:first-child {
   left: 35%;
   top: 5%;
@@ -533,25 +539,29 @@ form button {
   font-size: 0.9em;
 }
 
-.footer img {
-  width: 14.75em;
-  filter: invert(18%) sepia(99%) saturate(3196%) hue-rotate(355deg) brightness(97%) contrast(100%);
-}
-
 .footer a,
 .footer p {
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer a:hover {
-  text-decoration: none;
-  color: black;
-}
-
 .footer-icons a {
   font-size: 1.5em;
   margin-right: 0.5em;
+}
+
+.links a {
+  margin: 0.2em 1.2em 0.2em 0;
+  font-size: 0.9em;
+}
+
+.footer a {
+  font-weight: 400 !important;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .footer-icons a:hover {
@@ -560,11 +570,6 @@ form button {
 
 .footer p {
   margin: 1em 0;
-}
-
-.links a {
-  margin: 0.2em 1.2em 0.2em 0;
-  font-size: 0.9em;
 }
 
 .lang {
@@ -580,16 +585,11 @@ form button {
   height: 14.5625em;
 }
 
-.footer a {
-  font-weight: 400 !important;
-}
-
-
 @media only screen and (min-width: 768px) {
   .fa-bars {
     transform: scale(1.8);
   }
- 
+
   .col1,
   .col2,
   .col3 {
@@ -614,7 +614,7 @@ form button {
   .spons2 {
     width: 55%;
   }
-  
+
   .sub-img2 {
     height: 21.3vw !important;
     overflow: hidden;
@@ -685,10 +685,10 @@ form button {
     background-color: #f72210;
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
-}
-  
+  }
+
   .login-div {
-    margin-bottom: -2em;  
+    margin-bottom: -2em;
   }
 
   .newsweek-logo {
@@ -698,7 +698,7 @@ form button {
     left: 50%;
     transform: translate(-50%);
   }
-  
+
   .card {
     padding: 1em 0;
   }
@@ -718,14 +718,14 @@ form button {
   }
 
   .editor-grid {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1em;
   }
 
   .z2 {
     margin-top: 1%;
     width: 40%;
-    margin-left: 55%
+    margin-left: 55%;
   }
 
   .z2 h3 {
