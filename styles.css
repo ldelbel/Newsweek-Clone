@@ -7,8 +7,24 @@ html,
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+}
+
 main {
   overflow: hidden;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 .text-black {
@@ -43,15 +59,77 @@ main {
   margin: 1em 1em 0.3em 1em;
 }
 
+.link {
+  font-size: 1.1875em !important;
+  padding: 0.2em 0.3em;
+  border-left: 0.1em solid #d3d3d3;
+}
+
+.li {
+  text-align: center;
+}
+
+nav {
+  height: 3.5em;
+  flex-wrap: nowrap;
+}
+
+ul {
+  width: 100%;
+  padding-right: 6vw;
+  border-bottom: 0.13em solid #f0f0f0;
+  list-style-type: none;
+}
+
+.search-input {
+  border: none;
+  width: 4em;
+}
+
+::placeholder {
+  font-size: 1.3em;
+  color: #b6b6b6;
+}
+
 .navbar {
   background-color: #f72210;
   height: 3.125em;
   flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.show {
+  overflow: visible;
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  background-color: white;
+}
+
+.vert-nav {
+  width: 12em;
+  padding-right: 0;
+}
+
+.vert-nav li {
+  font-weight: 900;
+  font-size: 1.1875em !important;
+}
+
+.vert-nav li:hover {
+  background-color: black;
+  color: white !important;
+  cursor: pointer;
 }
 
 .navbar-brand {
   width: 7.5em;
   filter: invert(1);
+}
+
+.wicon {
+  width: 2em;
+  height: 2em;
 }
 
 .btn-warning {
@@ -566,6 +644,35 @@ form button {
 }
 
 @media only screen and (min-width: 992px) {
+  .navbar {
+    height: 5.9375em;
+    position: relative;
+  }
+
+  .navbot::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 7em;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+}
+  
+  .login-div {
+    margin-bottom: -2em;  
+  }
+
+  .newsweek-logo {
+    width: 24.727rem;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
   .card {
     padding: 1em 0;
   }

@@ -18,27 +18,125 @@
       src="https://kit.fontawesome.com/ad0c4e912f.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <title>Newsweek</title>
   </head>
   <body>
-    <nav class="navbar sticky-top">
+    <header class="position-relative">
+    <div class="navbar nav sticky-top">
+      <div class="d-none d-lg-inline-block">
+        <div class="text-white font-weight-bold"><img class="wicon" src="images/weather.png" alt="weather"> 17° Caraguatatuba, BR ></div>
+        <div class="text-white">Wed, Jun 03,2020</div>
+      </div>
       <a href="#"
         ><img
           class="navbar-brand newsweek-logo"
           src="images/newsweek.png"
           alt="newsweek"
       /></a>
-      <div class="d-inline-flex align-items-center">
+      <div class="login-div d-inline-flex align-items-center justify-content-lg-end">
+        
         <a href="#"><span class="fas fa-user d-md-none"></span></a>
         <h3 class="login d-none d-md-inline">LOGIN</h3>
         <button class="btn btn-warning d-md-none">SUBSCRIBE</button>
         <button class="btn btn-warning btn-warning2 d-none d-md-inline">
           SUBSCRIBE >
         </button>
-        <div class="fas fa-bars"></div>
+        <nav class="d-lg-none d-flex align-items-center">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-bars"></span>
+          </button>
+        </nav>
       </div>
+    </div>
+    <nav class="navbot nav position-relative d-none d-lg-flex" >
+     <ul class="nav align-items-center justify-content-between">
+      <li>
+        <a href="#" class="link">U.S.</a>
+      </li>
+      <li>
+        <a href="#" class="link">World</a>
+      </li>
+      <li>
+        <a href="#" class="link">Business</a>
+      </li>
+      <li>
+        <a href="#" class="link">Tech & Science</a>
+      </li>
+      <li>
+        <a href="#" class="link">Culture</a>
+      </li>
+      <li>
+        <a href="#" class="link">Newsgeek</a>
+      </li>
+      <li>
+        <a href="#" class="link">Sports</a>
+      </li>
+      <li>
+        <a href="#" class="link">Health</a>
+      </li>
+      <li>
+        <a href="#" class="link">The Debate</a>
+      </li>
+      <li>
+        <a href="#" class="link">Vantage</a>
+      </li>
+      <li>
+        <a href="#" class="link">Weather</a>
+      </li>
+      <li><div class="search">
+        <input class="search-input" type="text" placeholder="Search">
+        <img src="images/icon.png" alt="search">
+      </div>
+      </li>
+    </ul>
     </nav>
-
+    <div class="show d-lg-none collapse" id="navbarToggleExternalContent">
+      <ul class="vert-nav align-items-center justify-content-between">
+        <li><div class="search">
+          <input class="search-input" type="text" placeholder="Search">
+          <img src="images/icon.png" alt="search">
+        </div>
+        </li>
+        <li>
+          U.S.
+        </li>
+        <li>
+          World
+        </li>
+        <li>
+          Business
+        </li>
+        <li>
+          Tech & Science
+        </li>
+        <li>
+          Culture
+        </li>
+        <li>
+          Newsgeek
+        </li>
+        <li>
+          Sports
+        </li>
+        <li>
+          Health
+        </li>
+        <li>
+          The Debate
+        </li>
+        <li>
+          Vantage
+        </li>
+        <li>
+          Weather
+        </li>
+        
+      </ul>
+    </div> 
+  </header>
     <main>
       <!-- ---------------------------------------------------------------------- UPPER GRID ROW -->
       <div class="row">
