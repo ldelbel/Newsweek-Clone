@@ -22,9 +22,8 @@ a {
 }
 
 a:hover {
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: #f72210;
+  text-decoration: none;
+  color: #f61602;
 }
 
 .text-black {
@@ -57,6 +56,25 @@ a:hover {
 
 .margin-tot {
   margin: 1em 1em 0.3em 1em;
+}
+
+.debate h5:hover,
+.opinion h5:hover {
+  color: #f92859;
+  cursor: pointer;
+}
+
+h3:hover,
+.more-stories h5:hover,
+.more-div h5:hover,
+.magazine-grid h4:hover {
+  text-decoration: underline;
+  text-decoration-color: #f61602;
+  cursor: pointer;
+}
+
+.magazine-grid h4 {
+  font-size: 1.2em;
 }
 
 .link {
@@ -561,6 +579,11 @@ form button {
   transform: translate(-30%);
   height: 14.5625em;
 }
+
+.footer a {
+  font-weight: 400 !important;
+}
+
 
 @media only screen and (min-width: 768px) {
   .fa-bars {
