@@ -209,6 +209,10 @@ p {
   border: none;
 }
 
+.o-h {
+  overflow: hidden;
+}
+
 .card2 {
   padding: 0;
   margin: 1em;
@@ -477,6 +481,11 @@ form button {
   z-index: 2;
 }
 
+.newsl {
+  transform: translate(-30%);
+  height: 14.5625em;
+}
+
 @media only screen and (min-width: 768px) {
   .fa-bars {
     transform: scale(1.8);
@@ -571,5 +580,31 @@ form button {
   .editor-grid {
     grid-template-columns: repeat(4,1fr);
     gap: 1em;
+  }
+
+  .z2 {
+    margin-top: 1%;
+    width: 40%;
+    margin-left: 55%
+  }
+
+  .z2 h3 {
+    font-size: 1.5em;
+  }
+
+  .subs-box {
+    height: auto;
+  }
+
+  .w-25 {
+    width: 50% !important;
+  }
+
+  .w-100 {
+    width: 50% !important;
+  }
+
+  .newsl {
+    height: 100%;
   }
 }
