@@ -670,6 +670,14 @@ form button {
 }
 
 @media only screen and (min-width: 992px) {
+  html {
+    background-color: #f0f0f0;
+  }
+
+  body {
+    margin: 0 1em;
+  }
+
   .navbar {
     height: 5.9375em;
     position: relative;
