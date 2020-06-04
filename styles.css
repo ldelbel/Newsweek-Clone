@@ -149,6 +149,11 @@ ul {
   background-color: white;
 }
 
+.no-pad-vert {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .vert-nav {
   width: 12em;
   padding-right: 0;
@@ -196,7 +201,7 @@ ul {
 
 .login {
   color: white;
-  display: inline;
+  display: inline-block;
   margin-bottom: -0.1em;
 }
 
