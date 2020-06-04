@@ -4,7 +4,7 @@
 > Bootstrap Grid Layout and pre-defined CSS Classes were applied to achieve this goal.
 > Also this project was used to improve classes organization and the application and understanding of alternative classes structuring (inspired by both OOCS and BEM classes naming methods)
 
-![screenshot](./screenshot.png)
+![screenshot](./images/screenshot.png)
 
 This project covers the following HTML and CSS3 concepts:
 
