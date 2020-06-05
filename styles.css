@@ -35,11 +35,11 @@ a:hover {
 }
 
 .no-padding {
-  padding: 0 !important;
+  padding: 0;
 }
 
 .no-margin {
-  margin: 0 !important;
+  margin: 0;
 }
 
 .margin-lat {
@@ -100,7 +100,7 @@ h3:hover,
 }
 
 .link {
-  font-size: 1.1875em !important;
+  font-size: 1.1875em;
   padding: 0.1em 0.5vw;
   border-left: 0.1em solid #d3d3d3;
   flex: 1;
@@ -117,7 +117,7 @@ nav {
 
 ul {
   width: 100%;
-  padding-right: 6vw;
+  padding-right: 1vw;
   border-bottom: 0.13em solid #f0f0f0;
   list-style-type: none;
   z-index: 2;
@@ -149,25 +149,17 @@ ul {
   background-color: white;
 }
 
+.menu {
+  background-color: transparent;
+  border: none;
+}
+
+.menu:focus {
+  outline: none;
+}
+
 .no-pad-vert {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.vert-nav {
-  width: 12em;
-  padding-right: 0;
-}
-
-.vert-nav li {
-  font-weight: 900;
-  font-size: 1.1875em !important;
-}
-
-.vert-nav li:hover {
-  background-color: black;
-  color: white !important;
-  cursor: pointer;
+  padding-bottom: 0;
 }
 
 .navbar-brand {
@@ -251,7 +243,7 @@ p {
 }
 
 .pad {
-  padding: 1em !important;
+  padding: 1em;
 }
 
 .square-img {
@@ -328,7 +320,7 @@ p {
 }
 
 .no-border {
-  border: none !important;
+  border: none;
   padding: 1em;
 }
 
@@ -453,11 +445,16 @@ p {
   line-height: 1em;
 }
 
+.n-icon {
+  width: 2em;
+}
+
 .subs-button,
-form button {
-  background-color: #f61602 !important;
-  border: none !important;
+form .btn {
+  background-color: #f61602;
+  border: none;
   font-weight: 900;
+  color: white;
 }
 
 form button {
@@ -561,7 +558,7 @@ form button {
 }
 
 .footer a {
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 .footer a:hover {
@@ -621,7 +618,7 @@ form button {
   }
 
   .sub-img2 {
-    height: 21.3vw !important;
+    height: 21.3vw;
     overflow: hidden;
     position: relative;
   }
@@ -659,7 +656,7 @@ form button {
     width: 55%;
     margin-left: 45%;
     margin-top: -10%;
-    align-items: flex-start !important;
+    align-items: flex-start;
   }
 
   .subs-img {
@@ -747,14 +744,6 @@ form button {
 
   .subs-box {
     height: auto;
-  }
-
-  .w-25 {
-    width: 50% !important;
-  }
-
-  .w-100 {
-    width: 50% !important;
   }
 
   .newsl {
