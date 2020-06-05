@@ -23,7 +23,7 @@ This project covers the following HTML and CSS3 concepts:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ldelbel/Newsweek-Clone/134f248e0fda940eedf5d4d69277b93a62beb8c2/index.html)
+[Live Demo Link](https://ldelbel.github.io/Newsweek-Clone/)
 
 ## Getting Started
 
